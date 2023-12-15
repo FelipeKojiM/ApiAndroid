@@ -12,8 +12,6 @@ import java.util.ArrayList;
 
 public class listaPaisesActivity extends AppCompatActivity {
 
-    private TextView tvCodigo;
-    private TextView tvDescricao;
     private ControllerPaises controller;
     private RecyclerView rvRelatorios;
 
