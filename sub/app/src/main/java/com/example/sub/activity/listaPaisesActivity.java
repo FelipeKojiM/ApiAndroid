@@ -23,10 +23,10 @@ public class listaPaisesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_lista_paises);
 
         rvRelatorios = findViewById(R.id.rvRelatorios);
-        carregarListaAlunos();
+        carregarListaPaises();
     }
 
-    private void carregarListaAlunos() {
+    private void carregarListaPaises() {
         ArrayList<Paises> listaPais = controller.retornar(this);
         AdapterPaises adapter = new AdapterPaises(this, listaPais);
 
